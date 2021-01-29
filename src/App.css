@@ -60,6 +60,7 @@
   height: 200px;
   min-width: 100px;
   min-height: 100px;
+  margin: auto;
 }
 
 .reference-box{
@@ -78,4 +79,19 @@
 
 .row-box{
   display: flex;
+}
+
+/*Projects*/
+.game-card{
+  width: 20rem;
+  margin: 1%;
+  text-align: center;
+}
+
+.control-left{
+  margin-left: -25px;
+}
+
+.control-right{
+  margin-right: -25px;
 }

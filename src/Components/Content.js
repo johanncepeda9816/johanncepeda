@@ -1,5 +1,6 @@
 import React from "react"
 import Experience from "./Experience";
+import Projects from "./Projects";
 import Summary from "./Summary";
 
 export default function Content(props){
@@ -28,8 +29,8 @@ export default function Content(props){
     }
     else if(toShow === "proyects"){
         return(
-            <div>
-                <h1>Proyectos</h1>
+            <div className="mt-5">
+                <Projects/>
             </div>
         )
     }
