@@ -4,9 +4,10 @@ export default function Experience(){
     return(
         <div className="container">
             <h1 className="text-center">Desarrollo</h1>
+            <hr className="hr"/>
             <div className="w-100 row mx-auto">
-                <div className="reference-box col-12 mt-3 mx-auto">
-                    <h5 className="">Veterinaria Bien Animal</h5>
+                <div className="experience-box col-12 mt-3 mx-auto">
+                    <h2 className="">Veterinaria Bien Animal</h2>
                     <strong>Producto: </strong>
                     <label>Aplicación Web - Full Stack</label>
                     <strong className="d-block">Descripción:</strong>
@@ -21,8 +22,8 @@ export default function Experience(){
                     <strong className="d-block">Contacto: </strong>
                     <label>Alejandra Barbosa</label>
                 </div>
-                <div className="reference-box col-12 mt-3 mx-auto">
-                    <h5 className="">Colegio Distrital Suba</h5>
+                <div className="experience-box col-12 mt-3 mx-auto">
+                    <h2 className="">Colegio Distrital Suba</h2>
                     <strong>Producto: </strong>
                     <label>Video Juego PC</label>
                     <strong className="d-block">Descripción:</strong>
@@ -37,8 +38,8 @@ export default function Experience(){
                     <strong className="d-block">Contacto: </strong>
                     <label>Licenciada - Franquelina</label>
                 </div>
-                <div className="reference-box col-12 mt-3 mx-auto">
-                    <h5 className="">Escuela Colombiana de Ingeniería Julio Garavito</h5>
+                <div className="experience-box col-12 mt-3 mx-auto">
+                    <h2 className="">Escuela Colombiana de Ingeniería Julio Garavito</h2>
                     <strong>Producto: </strong>
                     <label>Aplicación móvil</label>
                     <strong className="d-block">Descripción:</strong>
@@ -56,8 +57,9 @@ export default function Experience(){
 
             <div className="mx-auto mt-5">
                 <h1 className="text-center">Otras áreas de interes</h1>
-                <div className="reference-box col-12 mt-3 mx-auto">
-                    <h5 className="">Exito Wow</h5>
+                <hr className="hr"/>
+                <div className="experience-box col-12 mt-3 mx-auto">
+                    <h2 className="">Exito Wow</h2>
                     <strong>Servicio: </strong>
                     <label>Cajero</label>
                     <strong className="d-block">Descripción:</strong>
@@ -70,8 +72,8 @@ export default function Experience(){
                     <label>Jefe de piso - Exito Wow</label>
                 </div>
 
-                <div className="reference-box col-12 mt-3 mx-auto">
-                    <h5 className="">Carvajal Educación</h5>
+                <div className="experience-box col-12 mt-3 mx-auto">
+                    <h2 className="">Carvajal Educación</h2>
                     <strong>Servicio: </strong>
                     <label>Impulsador de ventas</label>
                     <strong className="d-block">Descripción:</strong>
@@ -87,8 +89,8 @@ export default function Experience(){
                     <label>Administración - Carvajal Educación</label>
                 </div>
 
-                <div className="reference-box col-12 mt-3 mx-auto">
-                    <h5 className="">Autos Cars</h5>
+                <div className="experience-box col-12 mt-3 mx-auto">
+                    <h2 className="">Autos Cars</h2>
                     <strong>Servicio: </strong>
                     <label>Auxiliar Mecánico</label>
                     <strong className="d-block">Descripción:</strong>

@@ -1,4 +1,5 @@
 import React from "react"
+import Achievements from "./Achievements";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Summary from "./Summary";
@@ -36,8 +37,8 @@ export default function Content(props){
     }
     else if(toShow === "achievements"){
         return(
-            <div>
-                <h1>Logros</h1>
+            <div className="mt-5">
+                <Achievements/>
             </div>
         )
     }

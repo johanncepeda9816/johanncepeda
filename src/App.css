@@ -4,9 +4,14 @@
   padding: 0%;
 }
 
+.hr{
+  background-color:#E62A1C;
+  height: 2px;
+}
+
 /*Header*/
 .header{
-  background-color: aqua;
+  background-image: url("https://image.freepik.com/vector-gratis/fondo-negro-abstracto-sombra-doblez-tecnologia_1408-563.jpg");
 }
 
 .profile-img{
@@ -38,20 +43,30 @@
 
 /*Menu*/
 .nav-button{
-  color: #318aac !important;
+  color: #000 !important;
   font-size: 20px;
   font-weight: 500;
   padding: 0.5em 1.2em;
-  background: rgba(0,0,0,0);
-  border: 2px solid black;
+  background: #E62A1C;
+  border: 2px solid #000;
   transition: all 0.5s ease;
   position: relative;
 }
 
 .nav-button:hover{
   cursor: pointer;
-  background: #318aac;
+  background: #990D03;
   color: #fff !important;
+}
+
+.title-primary{
+  color:#000;
+  /*color:#990D03*/
+}
+
+.color-secundary{
+  color:#D1E632
+  /*color: #0574E6;*/
 }
 
 /*Summary*/
@@ -64,7 +79,15 @@
 }
 
 .reference-box{
-  box-shadow: #000 1px 1px 1px 1px;
+  box-shadow: #000 1px 1px 5px;
+  border-radius: 2%;
+  margin: 5px;
+  padding: 5px;
+  height: auto;
+}
+
+.experience-box{
+  box-shadow: #000 1px 1px 5px;
   margin: 5px;
   padding: 5px;
   height: auto;
@@ -88,10 +111,38 @@
   text-align: center;
 }
 
+.game-card-img{
+  width: 100%;
+  height: 40%;
+}
+
 .control-left{
   margin-left: -25px;
 }
 
 .control-right{
   margin-right: -25px;
+}
+
+
+/*Achievements*/
+.achievement{
+  border: 5px solid #000;
+  height: auto;
+}
+
+.achievement-content{
+
+}
+
+.achievement-icon{
+  width: 250px;
+  height: 250px;
+  margin: auto;
+}
+
+.achievement-title{
+  margin-top: 25px;
+  border-top: 5px solid #E62A1C;
+  text-align: center;
 }

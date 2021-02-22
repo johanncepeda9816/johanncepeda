@@ -8,22 +8,24 @@ export default function MobileProjects(){
                 "id":1,
                 "title":"Swapped Shots",
                 "description":"Swapped shots es una aplicación de retos en diferentes modos, ya sea amigos, fiesta, match, o familia. Divertido para ocaciones especiales.",
-                "img":"https://firebasestorage.googleapis.com/v0/b/johanncepeda-8e965.appspot.com/o/Facilito.PNG?alt=media&token=36682b97-2157-45bb-95c6-907c8c03bbed",
-                "technologies":"Unity, Firebase, Admob"
+                "img":"https://firebasestorage.googleapis.com/v0/b/johanncepeda-8e965.appspot.com/o/SwappedShots.png?alt=media&token=e2bd5868-4e10-4690-ab68-d6cb5a45f04b",
+                "technologies":"Unity, Firebase, Admob",
+                "href":"https://play.google.com/store/apps/details?id=com.SurvivorsGames.Swapped&hl=es_CO&gl=US"
             },
             {
                 "id":2,
                 "title":"Indu App",
                 "description":"Aplicación que utiliza realidad aumentada para reconocimineto de codigos QR donde se brinda informacion acerca de los bloques en la ECI.",
-                "img":"https://firebasestorage.googleapis.com/v0/b/johanncepeda-8e965.appspot.com/o/after-shift.png?alt=media&token=b51441a3-bf89-45b0-a2b5-e3bc0e9f0693",
-                "technologies":"Unity, Vuforia"
+                "img":"https://firebasestorage.googleapis.com/v0/b/johanncepeda-8e965.appspot.com/o/InduApp.jpeg?alt=media&token=8dbff155-35a9-4be0-b67d-9eb69c373a92",
+                "technologies":"Unity, Vuforia",
+                "href":"https://play.google.com/store/apps/details?id=com.GrupoVideoJuegosECI.InduApp&hl=es_CO&gl=US"
             },
             {
                 "id":3,
                 "title":"Space VR",
                 "description":"Videojuego interactivo que utiliza realidad virtual para dispositivos móviles, se requiere un control conectado por Bluetooth y unas gafas especiales de VR BOX para celular.",
-                "img":"https://firebasestorage.googleapis.com/v0/b/johanncepeda-8e965.appspot.com/o/Facilito.PNG?alt=media&token=36682b97-2157-45bb-95c6-907c8c03bbed",
-                "technologies":"Unity 2D, Cinemachine"
+                "img":"https://firebasestorage.googleapis.com/v0/b/johanncepeda-8e965.appspot.com/o/VrBox.PNG?alt=media&token=162589b9-471c-408c-9cc9-d8171f8216a0",
+                "technologies":"Unity 2D, VR Box",
             }
         ],
 
@@ -67,62 +69,20 @@ export default function MobileProjects(){
                                             <p className="">
                                                 {item.description}
                                             </p>
-                                            <img className="img-fluid" src={item.img}/>
+                                            <img className="img-fluid game-card-img" src={item.img}/>
                                             <strong className="d-block">Tecnologías:</strong>
                                             <label>{item.technologies}</label>
                                             <img />
-                                            <button type="button" className="btn-md btn-block btn-dark text-light" data-toggle="modal" data-target="#modal-game">Ver</button>
+                                            <a type="button" className="btn-md btn-block btn-dark text-light" href={item.href} target="_blank">Ver</a>
                                         </div>
                                     )
                                 })
                             }
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div className="row w-100 mx-auto">
-                            {
-                                gamesPc[1].map((item) => {
-                                    return(
-                                        <div className="game-card mx-auto" key={item.id}>
-                                            <h2 className="">{item.title}</h2>
-                                            <strong className="d-block">Descripción:</strong>
-                                            <p className="">
-                                                {item.description}
-                                            </p>
-                                            <img className="img-fluid" src={item.img}/>
-                                            <strong className="d-block">Tecnologías:</strong>
-                                            <label>{item.technologies}</label>
-                                            <img />
-                                            <button type="button" className="btn-md btn-block btn-dark text-light" data-toggle="modal" data-target="#modal-game">Ver</button>
-                                        </div>
-                                    )
-                                })
-                            }
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                    <div className="row w-100 mx-auto">
-                            {
-                                gamesPc[1].map((item) => {
-                                    return(
-                                        <div className="game-card mx-auto" key={item.id}>
-                                            <h2 className="">{item.title}</h2>
-                                            <strong className="d-block">Descripción:</strong>
-                                            <p className="">
-                                                {item.description}
-                                            </p>
-                                            <img className="img-fluid" src={item.img}/>
-                                            <strong className="d-block">Tecnologías:</strong>
-                                            <label>{item.technologies}</label>
-                                            <img />
-                                            <button type="button" className="btn-md btn-block btn-dark text-light" data-toggle="modal" data-target="#modal-game">Ver</button>
-                                        </div>
-                                    )
-                                })
-                            }
-                        </div>
-                    </div>
+                    
                 </div>
+                {/*
                 <a class="carousel-control-prev" href="#mobileControls" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
@@ -130,7 +90,7 @@ export default function MobileProjects(){
                 <a class="carousel-control-next" href="#mobileControls" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
-                </a>
+                </a>*/}
             </div>
         </div>
     )

@@ -11,14 +11,17 @@ export default function Projects(){
         <div className="container">
             <div className="mt-5">
                 <h1 className="text-center">Videojuegos</h1>
+                <hr className="hr"/>
                 <PcProjects />
             </div>
             <div className="mt-5">
                 <h1 className="text-center">Aplicaciones móviles</h1>
+                <hr className="hr"/>
                 <MobileProjects />
             </div>
             <div className="mt-5">
                 <h1 className="text-center">Desarrollo Web</h1>
+                <hr className="hr"/>
                 <WebProjects />
             </div>
             <ProjectViewer title="hola" description="test" img={Instagram}/>
