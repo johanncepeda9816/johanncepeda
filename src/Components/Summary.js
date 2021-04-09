@@ -10,18 +10,17 @@ export default function Summary(){
                 <p className="text-justify">
                     Estudiante 7 semestre de Ingeniería de Sistemas en la Escuela Colombiana de 
                     Ingeniería Julio Garavito. Interesado en el desarrollo de Software, 
-                    aplicaciones móviles y, productos de tecnología que impulsen Start Ups,
-                    ojalá con el motor de Unity. 
+                    aplicaciones móviles y, productos de tecnología. 
                     Tengo conocimientos en servicios de Google para autenticación de usuarios, 
                     y monetización de aplicaciones por medio de anuncios o compras dentro
                     de la aplicación. 
-                    Tambien cuento con conocimientos actualizados en Marketing Digital
+                    Tambien tengo conocimientos actualizados en Marketing Digital
                     certificados. Lidero un grupo de interés para el desarrollo de 
                     Video Juegos con Unity <a target="_blank" href="https://ecigamedev.web.app/">Ecigamedev</a>. Soy una persona autónoma, con alta capacidad de planificación
-                    y solución de problemas. Cuento con experiencia en la planeación de productos y producción 
-                    de los mismos, al igual que dictando cursos introductorios al desarrollo de videojuegos.
+                    y solución de problemas. Cuento con experiencia en desarrollo de aplicaciones full stack, aplicaciones
+                    móviles, aplicaciones web con el uso de tecnologías React, Firebase.
                     
-                    <br/><br/>Mis Hobbies son: Programar, Jugar en línea, leer sobre el desarrollo personal, hacer ejercicio.
+                    <br/><br/>Mis Hobbies son: Programar, desarrollo personal, ejercicio.
                 </p>
             </div>
             
@@ -42,7 +41,7 @@ export default function Summary(){
                     <ul className="mx-auto">
                         <li className="list-item">Desmotivación cuando no funciona</li>
                         <li className="list-item">Soy directo con las cosas</li>
-                        <li className="list-item">Le tengo miedo al fracaso</li>
+                        <li className="list-item">Odio el fracaso</li>
                         <li className="list-item">Soy indeciso y eso me complica algunas veces</li>
                     </ul>
                 </div>

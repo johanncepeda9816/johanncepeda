@@ -15,14 +15,14 @@ export default function Header(){
                     <h6 className="text-light">Desarrollador Junior</h6>
                     <h6 className="text-light">(+57) 310-886-8329</h6>
                     <h6 className="text-light">Inglés intermedio - Español nativo</h6>
-                    <h6 className="text-light">Estudiante</h6>
+                    <h6 className="text-light">Estudiante - Horario flexible</h6>
                 </div>
                 <div className="social-section my-auto">
                     <a target="_blank" href="https://www.instagram.com/johann_cepeda"><img className="icon-img" src={Instagram}/></a>
                     <a target="_blank" href="https://www.facebook.com/johanncepeda"><img className="icon-img" src={Facebook}/></a>
                     <a target="_blank" href="https://www.linkedin.com/in/johann-cepeda-47690b185/"><img className="icon-img" src={Linkedin}/></a>                </div>
             </div>
-            <label className="text-light">Ultima actualización 2/10/2021</label>
+            <label className="text-light">Última actualización 9 abril 2021</label>
         </div>
     )
 }
