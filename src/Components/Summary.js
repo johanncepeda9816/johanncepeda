@@ -13,12 +13,11 @@ export default function Summary(){
                     aplicaciones móviles y, productos de tecnología. 
                     Tengo conocimientos en servicios de Google para autenticación de usuarios, 
                     y monetización de aplicaciones por medio de anuncios o compras dentro
-                    de la aplicación. 
-                    Tambien tengo conocimientos actualizados en Marketing Digital
+                    de la aplicación. Conocimientos actualizados en Marketing Digital
                     certificados. Lidero un grupo de interés para el desarrollo de 
                     Video Juegos con Unity <a target="_blank" href="https://ecigamedev.web.app/">Ecigamedev</a>. Soy una persona autónoma, con alta capacidad de planificación
                     y solución de problemas. Cuento con experiencia en desarrollo de aplicaciones full stack, aplicaciones
-                    móviles, aplicaciones web con el uso de tecnologías React, Firebase.
+                    móviles, aplicaciones web con el uso de tecnologías React, React Native, Firebase, Unity.
                     
                     <br/><br/>Mis Hobbies son: Programar, desarrollo personal, ejercicio.
                 </p>
@@ -153,7 +152,7 @@ export default function Summary(){
                     <div className="col-12 col-sm-4 col-xs-4 col-md-4 mx-auto mb-3">
                         <h3>React Native</h3>
                         <div className="progress">
-                            <div className="progress-bar bg-danger" role="progressbar" style={{width: "25%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div className="progress-bar bg-danger" role="progressbar" style={{width: "55%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <div className="col-12 col-sm-4 col-xs-4 col-md-4 mx-auto mb-3">
