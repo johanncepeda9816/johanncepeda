@@ -22,7 +22,7 @@ export default function Header(){
                     <a target="_blank" href="https://www.facebook.com/johanncepeda"><img className="icon-img" src={Facebook}/></a>
                     <a target="_blank" href="https://www.linkedin.com/in/johann-cepeda-47690b185/"><img className="icon-img" src={Linkedin}/></a>                </div>
             </div>
-            <label className="text-light">Última actualización 9 abril 2021</label>
+            <label className="text-light">Última actualización 8 junio 2021</label>
         </div>
     )
 }

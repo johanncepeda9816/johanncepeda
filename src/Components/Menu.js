@@ -14,7 +14,7 @@ export default function Menu(props){
                     <button className="col-12 col-sm-3 col-md-3 col-xs-3 nav-item nav-link nav-button mx-auto" onClick={() => setSelect("summary")}>Resumen</button>
                     <button className="col-12 col-sm-3 col-md-3 col-xs-3 nav-item nav-link nav-button mx-auto" onClick={() => setSelect("experience")}>Experiencia</button>
                     <button className="col-12 col-sm-3 col-md-3 col-xs-3 nav-item nav-link nav-button mx-auto" onClick={() => setSelect("proyects")}>Portafolio</button>
-                    <button className="col-12 col-sm-3 col-md-3 col-xs-3 nav-item nav-link nav-button mx-auto" onClick={() => setSelect("achievements")}>Logros</button>
+                    <button className="col-12 col-sm-3 col-md-3 col-xs-3 nav-item nav-link nav-button mx-auto" onClick={() => setSelect("achievements")}>Más información</button>
                 </div>
             </div>
         </nav>
