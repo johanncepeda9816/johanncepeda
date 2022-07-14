@@ -8,17 +8,87 @@ export default function Summary() {
             <div>
                 <h1 className="text-center title-primary">Perfil Profesional</h1>
                 <p className="text-justify">
-                    Estudiante 9 semestre de Ingeniería de Sistemas en la Escuela Colombiana de
+                    Ingenierio de Sistemas de la Escuela Colombiana de
                     Ingeniería Julio Garavito. Interesado en el desarrollo de Software,
                     aplicaciones móviles y, productos de tecnología.
-                    Tengo conocimientos en servicios de Google para autenticación de usuarios,
-                    y monetización de aplicaciones por medio de anuncios o compras dentro
-                    de la aplicación. Conocimientos actualizados en Marketing Digital
-                    certificados. Lidero un grupo de interés para el desarrollo de
-                    Video Juegos con Unity <a target="_blank" href="https://ecigamedev.web.app/">Ecigamedev</a>. Soy una persona autónoma, con alta capacidad de planificación
-                    y solución de problemas. Cuento con experiencia en desarrollo de aplicaciones full stack, aplicaciones
-                    móviles, aplicaciones web con el uso de tecnologías React, React Native, Springboot, Firebase, Java, Unity.
+                    Conozco el ciclo de vida de un proyecto de software, metodologías ágiles como SCRUM para organización de proyectos, y tecnologías como Azure Devops, Taiga, etc.
+                    Lideré un grupo de interés para el desarrollo de
+                    Video Juegos con Unity <a target="_blank" href="https://ecigamedev.web.app/">Ecigamedev</a> por dos años.
+                    Soy una persona autónoma, con alta capacidad de planificación y solución de problemas.
                 </p>
+                <p>
+                    Cuento con mi propia organización donde realizo proyectos independientes en React Native y despliego a tiendas
+                    oficiales como Google Play y App Store, demostrando mi pasión por las fabricas de software y el desarrollo de productos.
+                    Asi mismo, aportanto a toda la comunidad con aplicaciones de utilidad y servicios
+                    <br />
+                    <br />
+                    <p>
+                        Conoce mas en <a target="_blank" href="https://survivorslabs.com/">www.survivorslabs.com</a>
+                    </p>
+                </p>
+            </div>
+
+            <div className="mt-5 mx-auto">
+                <h1 className="text-center title-primary">Tecnologías</h1>
+                <hr className="hr mb-5" />
+                <div className="row w-100 mx-auto">
+                    <div className="col-12 col-sm-4 col-xs-4 col-md-4 mx-auto mb-3">
+                        <h3>React Js</h3>
+                        <div className="progress">
+                            <div className="progress-bar bg-danger" role="progressbar" style={{ width: "85%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div className="col-12 col-sm-4 col-xs-4 col-md-4 mx-auto mb-3">
+                        <h3>React Native</h3>
+                        <div className="progress">
+                            <div className="progress-bar bg-danger" role="progressbar" style={{ width: "80%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div className="col-12 col-sm-4 col-xs-4 col-md-4 mx-auto mb-3">
+                        <h3>Firebase</h3>
+                        <div className="progress">
+                            <div className="progress-bar bg-danger" role="progressbar" style={{ width: "80%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div className="col-12 col-sm-4 col-xs-4 col-md-4 mx-auto mb-3">
+                        <h3>Unity</h3>
+                        <div className="progress">
+                            <div className="progress-bar bg-danger" role="progressbar" style={{ width: "65%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div className="col-12 col-sm-4 col-xs-4 col-md-4 mx-auto mb-3">
+                        <h3>Java</h3>
+                        <div className="progress">
+                            <div className="progress-bar bg-danger" role="progressbar" style={{ width: "70%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div className="col-12 col-sm-4 col-xs-4 col-md-4 mx-auto mb-3">
+                        <h3>C#</h3>
+                        <div className="progress">
+                            <div className="progress-bar bg-danger" role="progressbar" style={{ width: "50%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div className="col-12 col-sm-4 col-xs-4 col-md-4 mx-auto mb-3">
+                        <h3>Spring Boot</h3>
+                        <div className="progress">
+                            <div className="progress-bar bg-danger" role="progressbar" style={{ width: "50%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div className="col-12 col-sm-4 col-xs-4 col-md-4 mx-auto mb-3">
+                        <h3>PostgreSQL, Oracle</h3>
+                        <div className="progress">
+                            <div className="progress-bar bg-danger" role="progressbar" style={{ width: "50%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div className="col-12 col-sm-4 col-xs-4 col-md-4 mx-auto mb-3">
+                        <h3>Google Play - App Store</h3>
+                        <div className="progress">
+                            <div className="progress-bar bg-danger" role="progressbar" style={{ width: "90%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div className="row w-100 mt-5">
@@ -26,17 +96,17 @@ export default function Summary() {
                     <hr className="hr" />
                     <h1 className="text-center title-primary">Fortalezas</h1>
                     <ul className="mx-auto">
-                        <li className="list-item">Me considero un lider</li>
-                        <li className="list-item">Soy entusiasta con mi trabajo</li>
-                        <li className="list-item">Hago las cosas muy bien cuando me motivo</li>
-                        <li className="list-item">Siempre busco una solución a los problemas</li>
+                        <li className="list-item">Aptitudes de lider</li>
+                        <li className="list-item">Entusiasta con mi trabajo</li>
+                        <li className="list-item">Motiación laboral</li>
+                        <li className="list-item">Solución de problemas</li>
                     </ul>
                 </div>
                 <div className="col-12 col-sm-4 col-md-4">
                     <hr className="hr" />
                     <h1 className="text-center title-primary">Debilidades</h1>
                     <ul className="mx-auto">
-                        <li className="list-item">Desmotivación cuando no funciona</li>
+                        <li className="list-item">Impaciente</li>
                         <li className="list-item">Soy directo con las cosas</li>
                         <li className="list-item">Odio el fracaso</li>
                         <li className="list-item">Soy indeciso y eso me complica algunas veces</li>
@@ -46,7 +116,7 @@ export default function Summary() {
                     <hr className="hr" />
                     <h1 className="text-center title-primary">Oportunidades</h1>
                     <ul className="mx-auto">
-                        <li className="list-item">Liderazgo</li>
+                        <li className="list-item">Emprendedor</li>
                         <li className="list-item">Contar con experiencia laboral</li>
                         <li className="list-item">Tener conocimientos en varias áreas</li>
                         <li className="list-item">Desarrollar proyectos independientes</li>
@@ -105,25 +175,27 @@ export default function Summary() {
                 <hr className="hr mb-5" />
                 <div className="row w-100 mx-auto">
                     <div className="card mx-auto" style={{ width: "18rem" }}>
+                        <img className="card-img-top img-experience" src="https://firebasestorage.googleapis.com/v0/b/protegete-app-42322.appspot.com/o/assets%2Ficons%2FIcon.png?alt=media&token=7f626b66-88ca-4416-a22f-bdcac244cc3d" />
+                        <div className="card-body">
+                            <h5 className="card-title text-center">Protégete</h5>
+                            <p className="card-text text-center">
+                                Aplicación móvil para minimizar el acoso y aportar a la seguridad de las mujeres en el transporte
+                            </p>
+                            <a target="_blank" href="https://biolink.info/protegete" className="btn btn-danger center d-block">Saber más</a>
+                        </div>
+                    </div>
+
+                    <div className="card mx-auto" style={{ width: "18rem" }}>
                         <img className="card-img-top img-experience" src="https://firebasestorage.googleapis.com/v0/b/johanncepeda-8e965.appspot.com/o/icon.png?alt=media&token=b161c165-9ae9-422f-b0a2-2f22f0a02cf4" alt="Card image cap" />
                         <div className="card-body">
                             <h5 className="card-title text-center">Puppy Foundations</h5>
                             <p className="card-text text-center">
-                                Aplicación móvil en desarrollo que permite donaciones a fundaciones y adopciones de mascotas
+                                Aplicación móvil en desarrollo que permite publicar mascotas en adopción
                             </p>
                             <a href="#" className="btn btn-danger center d-block">En desarrollo...</a>
                         </div>
                     </div>
-                    <div className="card mx-auto" style={{ width: "18rem" }}>
-                        <img className="card-img-top img-experience" src="https://camo.githubusercontent.com/373f3ff428dc4c3588a7a3cfd64d8bd56aaf56a25ec94f071fa13e92690ec276/68747470733a2f2f696d6167652e666c617469636f6e2e636f6d2f69636f6e732f706e672f3531322f3330372f3330373031302e706e67" />
-                        <div className="card-body">
-                            <h5 className="card-title text-center">U-Matching</h5>
-                            <p className="card-text text-center">
-                                Aplicación web para conocer otras personas por intereses comunes y chatear en tiempo real.
-                            </p>
-                            <a target="_blank" href="https://u-matching.web.app/" className="btn btn-danger center d-block">Saber más</a>
-                        </div>
-                    </div>
+
                     <div className="card mx-auto" style={{ width: "18rem" }}>
                         <img className="card-img-top img-experience" src="https://firebasestorage.googleapis.com/v0/b/johanncepeda-8e965.appspot.com/o/BienAnimalLogo.png?alt=media&token=15b36e0f-f991-4b35-baa6-f475d3f29d82" alt="Card image cap" />
                         <div className="card-body">
@@ -138,106 +210,43 @@ export default function Summary() {
             </div>
 
             <div className="mt-5 mx-auto">
-                <h1 className="text-center title-primary">Tecnologías</h1>
-                <hr className="hr mb-5" />
-                <div className="row w-100 mx-auto">
-                    <div className="col-12 col-sm-4 col-xs-4 col-md-4 mx-auto mb-3">
-                        <h3>React Js</h3>
-                        <div className="progress">
-                            <div className="progress-bar bg-danger" role="progressbar" style={{ width: "60%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div className="col-12 col-sm-4 col-xs-4 col-md-4 mx-auto mb-3">
-                        <h3>React Native</h3>
-                        <div className="progress">
-                            <div className="progress-bar bg-danger" role="progressbar" style={{ width: "55%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div className="col-12 col-sm-4 col-xs-4 col-md-4 mx-auto mb-3">
-                        <h3>Firebase</h3>
-                        <div className="progress">
-                            <div className="progress-bar bg-danger" role="progressbar" style={{ width: "75%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div className="col-12 col-sm-4 col-xs-4 col-md-4 mx-auto mb-3">
-                        <h3>Unity</h3>
-                        <div className="progress">
-                            <div className="progress-bar bg-danger" role="progressbar" style={{ width: "65%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div className="col-12 col-sm-4 col-xs-4 col-md-4 mx-auto mb-3">
-                        <h3>Java</h3>
-                        <div className="progress">
-                            <div className="progress-bar bg-danger" role="progressbar" style={{ width: "80%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div className="col-12 col-sm-4 col-xs-4 col-md-4 mx-auto mb-3">
-                        <h3>C#</h3>
-                        <div className="progress">
-                            <div className="progress-bar bg-danger" role="progressbar" style={{ width: "80%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div className="col-12 col-sm-4 col-xs-4 col-md-4 mx-auto mb-3">
-                        <h3>Spring Boot</h3>
-                        <div className="progress">
-                            <div className="progress-bar bg-danger" role="progressbar" style={{ width: "50%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-
-                    <div className="col-12 col-sm-4 col-xs-4 col-md-4 mx-auto mb-3">
-                        <h3>PostgreSQL, Oracle</h3>
-                        <div className="progress">
-                            <div className="progress-bar bg-danger" role="progressbar" style={{ width: "50%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-
-                    <div className="col-12 col-sm-4 col-xs-4 col-md-4 mx-auto mb-3">
-                        <h3>Google Play Console</h3>
-                        <div className="progress">
-                            <div className="progress-bar bg-danger" role="progressbar" style={{ width: "90%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="mt-5 mx-auto">
                 <h1 className="text-center title-primary">Habilidades</h1>
                 <hr className="hr mb-5" />
                 <div className="row w-100 mx-auto">
                     <div className="col-12 col-sm-4 col-xs-4 col-md-4 mx-auto mb-3">
                         <h3>Front development</h3>
                         <div className="progress">
-                            <div className="progress-bar bg-dark" role="progressbar" style={{ width: "70%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div className="progress-bar bg-danger" role="progressbar" style={{ width: "90%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <div className="col-12 col-sm-4 col-xs-4 col-md-4 mx-auto mb-3">
                         <h3>Back development</h3>
                         <div className="progress">
-                            <div className="progress-bar bg-dark" role="progressbar" style={{ width: "60%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div className="progress-bar bg-danger" role="progressbar" style={{ width: "60%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <div className="col-12 col-sm-4 col-xs-4 col-md-4 mx-auto mb-3">
                         <h3>Game development</h3>
                         <div className="progress">
-                            <div className="progress-bar bg-dark" role="progressbar" style={{ width: "80%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div className="progress-bar bg-danger" role="progressbar" style={{ width: "50%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <div className="col-12 col-sm-4 col-xs-4 col-md-4 mx-auto mb-3">
                         <h3>Mobile development</h3>
                         <div className="progress">
-                            <div className="progress-bar bg-dark" role="progressbar" style={{ width: "70%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div className="progress-bar bg-danger" role="progressbar" style={{ width: "90%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <div className="col-12 col-sm-4 col-xs-4 col-md-4 mx-auto mb-3">
                         <h3>Work Team</h3>
                         <div className="progress">
-                            <div className="progress-bar bg-dark" role="progressbar" style={{ width: "90%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div className="progress-bar bg-danger" role="progressbar" style={{ width: "100%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <div className="col-12 col-sm-4 col-xs-4 col-md-4 mx-auto mb-3">
                         <h3>Leadership</h3>
                         <div className="progress">
-                            <div className="progress-bar bg-dark" role="progressbar" style={{ width: "85%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div className="progress-bar bg-danger" role="progressbar" style={{ width: "100%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                 </div>
