@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "johanncepeda-8e965"
+  },
+  "targets": {
+    "johanncepeda-8e965": {
+      "hosting": {
+        "johanncepeda": [
+          "johanncepeda"
+        ]
+      }
+    }
   }
 }

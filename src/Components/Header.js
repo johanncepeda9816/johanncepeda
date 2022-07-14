@@ -15,7 +15,7 @@ export default function Header(props) {
                     <h6 className="text-light">Desarrollador SSr. React</h6>
                     <h6 className="text-light">(+57) 310-886-8329</h6>
                     <h6 className="text-light">Inglés intermedio - Español nativo</h6>
-                    <h6 className="text-light">Estudiante - Horario flexible</h6>
+                    <h6 className="text-light">Ingeniero de sistemas</h6>
                 </div>
                 <div className="social-section my-auto">
                     <a target="_blank" href="https://www.instagram.com/johann_cepeda"><img className="icon-img" src={Instagram} /></a>
