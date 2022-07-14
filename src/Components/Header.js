@@ -3,7 +3,7 @@ import Facebook from "../Assets/Icons/facebook.png"
 import Instagram from "../Assets/Icons/instagram.png"
 import Linkedin from "../Assets/Icons/linkedin.png"
 
-export default function Header(){
+export default function Header(props){
     return(
         <div className="header p-3">
             <div className="row w-100">
@@ -22,7 +22,7 @@ export default function Header(){
                     <a target="_blank" href="https://www.facebook.com/johanncepeda"><img className="icon-img" src={Facebook}/></a>
                     <a target="_blank" href="https://www.linkedin.com/in/johann-cepeda-47690b185/"><img className="icon-img" src={Linkedin}/></a>                </div>
             </div>
-            <label className="text-light">Última actualización 8 junio 2021</label>
+            <label className="text-light">Última actualización 22 julio 2021</label>
         </div>
     )
 }

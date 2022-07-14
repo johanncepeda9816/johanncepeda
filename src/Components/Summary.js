@@ -115,13 +115,13 @@ export default function Summary() {
                         </div>
                     </div>
                     <div className="card mx-auto" style={{ width: "18rem" }}>
-                        <img className="card-img-top img-experience" src="https://firebasestorage.googleapis.com/v0/b/johanncepeda-8e965.appspot.com/o/Icon.png?alt=media&token=35ae9a9a-9088-41f8-81f2-47994a3dbb24" />
+                        <img className="card-img-top img-experience" src="https://camo.githubusercontent.com/373f3ff428dc4c3588a7a3cfd64d8bd56aaf56a25ec94f071fa13e92690ec276/68747470733a2f2f696d6167652e666c617469636f6e2e636f6d2f69636f6e732f706e672f3531322f3330372f3330373031302e706e67" />
                         <div className="card-body">
-                            <h5 className="card-title text-center">Swapped Shots</h5>
+                            <h5 className="card-title text-center">U-Matching</h5>
                             <p className="card-text text-center">
-                                Aplicación móvil de retos para divertirse con amigos y familiares. Esta publicado en Play Store.
+                                Aplicación web para conocer otras personas por intereses comunes y chatear en tiempo real.
                             </p>
-                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.SurvivorsGames.Swapped" className="btn btn-danger center d-block">Saber más</a>
+                            <a target="_blank" href="https://u-matching.web.app/" className="btn btn-danger center d-block">Saber más</a>
                         </div>
                     </div>
                     <div className="card mx-auto" style={{ width: "18rem" }}>
